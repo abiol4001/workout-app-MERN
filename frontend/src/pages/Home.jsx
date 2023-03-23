@@ -18,7 +18,7 @@ const Home = () => {
       }
     };
     getWorkouts();
-  });
+  }, []);
 
   return (
     <div className="home">
